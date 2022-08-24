@@ -1,0 +1,56 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*usar la siguiente imagen como fondo del body*/
+    background: url(img/maxresdefault.jpg) no-repeat center;
+    background-size: cover;
+}
+.logoArgProg{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logoArgProg .img-fluid{
+    width: 150px
+}
+.logoArgProg p{
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+}
+.rrssLogin{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.redesSociales{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    text-align: center;
+    margin: 5px;
+}
+.redesSociales a{
+    margin: 5px;
+}
+.banner{
+    margin-top: 1rem;
+    background: url(img/banderaargentina.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+}
+section article.telefe{
+    display:inline-block ;
+
+}
